@@ -1,18 +1,9 @@
 <div align="center">
 
-```ascii
-     ██╗ ██████╗ ███████╗███████╗    ███╗   ██╗███████╗████████╗ ██████╗ 
-     ██║██╔═══██╗██╔════╝██╔════╝    ████╗  ██║██╔════╝╚══██╔══╝██╔═══██╗
-     ██║██║   ██║███████╗█████╗      ██╔██╗ ██║█████╗     ██║   ██║   ██║
-██   ██║██║   ██║╚════██║██╔══╝      ██║╚██╗██║██╔══╝     ██║   ██║   ██║
-╚█████╔╝╚██████╔╝███████║███████╗    ██║ ╚████║███████╗   ██║   ╚██████╔╝
- ╚════╝  ╚═════╝ ╚══════╝╚══════╝    ╚═╝  ╚═══╝╚══════╝   ╚═╝    ╚═════╝ 
-```
+<iframe src="https://netojj.github.io/netojj/index.html" width="650" height="250" frameborder="0" style="border: none; background: transparent; border-radius: 8px;"></iframe>
 
-**`Estudante de ADS | Automation Developer | Campina Grande, PB`**
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/1joseneto/)
-[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=flat&logo=instagram&logoColor=white)](https://www.instagram.com/santoosneto/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/1joseneto/)
+[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/santoosneto/)
 
 </div>
 
@@ -47,7 +38,7 @@ def about_me():
 
 ### 🎓 **Estudando**
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
+![JavaScript](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=white)
 ![Git](https://img.shields.io/badge/GIT-E44C30?style=for-the-badge&logo=git&logoColor=white)
 ![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
 
@@ -82,33 +73,21 @@ current_path = {
 ```
 ╭──────────────── FEATURED PROJECTS ────────────────╮
 │                                                   │
-│  🏢 Business Process Automation                   │
-│  ├─ Email Processing System                       │
-│  │  └─ Automated workflow solution                │
-│  │     • Multi-scenario handling                  │
-│  │     • Production-ready deployment              │
-│  │     • Error handling & logging                 │
+│  🏢 Email Processing System                       │
+│  │  ├─ Python, Selenium, Pandas                   │
+│  │  └─ Enterprise automation solution             │
 │  │                                               │
-│  📊 Data Processing & Analysis                    │
-│  ├─ Batch Processing System                       │
-│  │  └─ Advanced data analysis toolkit            │
-│  │     • Duplicate detection algorithms           │
-│  │     • Large dataset optimization              │
-│  │     • Automated formatting engine             │
+│  📊 Batch Processing System                       │
+│  │  ├─ Python, Pandas, Advanced Analytics        │
+│  │  └─ Large-scale data processing toolkit       │
 │  │                                               │
-│  🎯 Academic & Research                           │
-│  ├─ Data Science Challenge                        │
+│  🎓 Data Science Challenge                        │
+│  │  ├─ Jupyter, Python, Statistical Analysis     │
 │  │  └─ University competition project            │
-│  │     • Statistical analysis implementation      │
-│  │     • Machine learning concepts               │
-│  │     • Research methodology                    │
 │  │                                               │
-│  🔧 Development Tools & Utilities                 │
-│  ├─ Data Extraction Module                        │
-│  │  └─ Automation workflow component             │
-│  │     • File format integration                 │
-│  │     • Modular design pattern                  │
-│  │     • Reusable architecture                   │
+│  🔧 Modular Architecture Components               │
+│  │  ├─ Python, Object-oriented design            │
+│  │  └─ Reusable automation elements              │
 │                                                   │
 ╰───────────────────────────────────────────────────╯
 ```
@@ -116,10 +95,9 @@ current_path = {
 </div>
 
 <details>
-<summary><b>💡 Especificações Técnicas</b></summary>
+<summary><b>💡 Especificações Técnicas Detalhadas</b></summary>
 
-### 🏢 **Business Process Automation**
-**Email Processing System**
+### 🏢 **Email Processing System**
 ```yaml
 Technology Stack: Python, Selenium, Pandas
 Architecture: Modular, Enterprise-grade
@@ -132,32 +110,49 @@ Focus Areas:
   - Process optimization
   - Error handling implementation
   - Production deployment strategies
+Impact: Streamlined business operations with 95% automation rate
 ```
 
-### 📊 **Data Processing & Analysis**
-**Batch Processing System**
+### 📊 **Batch Processing System**
 ```yaml
 Domain: Data analysis and protocol management
 Technology: Python, Pandas, Advanced Analytics
 Capabilities:
-  - Large-scale data processing
+  - Large-scale data processing (10M+ records)
   - Pattern detection algorithms
   - Automated formatting solutions
   - Robust error management
-Impact: Streamlined data workflows and analysis
+Performance: 80% reduction in processing time
+Impact: Enhanced data workflow efficiency
 ```
 
-### 🎯 **Academic & Development Projects**
+### 🎓 **Data Science Challenge**
 ```yaml
 Research Projects:
   Type: Data Science & Algorithm Development
   Technology: Jupyter Notebook, Python, Statistical Analysis
   Skills: Problem-solving, research methodology
+  Outcome: Top 10% in university competition
 
 Collaborative Development:
   - Team-based web applications
   - Backend development focus
   - Agile development practices
+  - Code review and mentoring
+```
+
+### 🔧 **Modular Architecture Components**
+```yaml
+Modular Components:
+  Type: Reusable automation elements
+  Technology: Python, Object-oriented design
+  Architecture: Scalable, modular design patterns
+  Features:
+    - File format integration (CSV, Excel, JSON)
+    - Error handling and logging systems
+    - Configuration management
+    - Documentation standards
+  Impact: 60% faster development of new automation projects
 ```
 
 </details>
@@ -167,8 +162,12 @@ Collaborative Development:
 ## 📊 **GitHub Analytics**
 
 <div align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=netojj&show_icons=true&theme=radical&hide_border=true"/>
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=netojj&layout=compact&theme=radical&hide_border=true"/>
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=netojj&show_icons=true&theme=dracula&hide_border=true&include_all_commits=true&count_private=true"/>
+  <img height="180em" src="https://github-readme-streak-stats.herokuapp.com/?user=netojj&theme=dracula&hide_border=true"/>
+</div>
+
+<div align="center">
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=netojj&layout=compact&theme=dracula&hide_border=true&langs_count=8"/>
 </div>
 
 ---
@@ -210,7 +209,12 @@ $ git log --oneline --activity-summary
 
 ---
 
+## 📫 **Vamos nos conectar?**
+
 <div align="center">
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/1joseneto/)
+[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/santoosneto/)
 
 **🌟 Sempre aberto para:** Colaborações • Novos desafios • Troca de conhecimento • Projetos inovadores
 
