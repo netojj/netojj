@@ -1,9 +1,59 @@
+# José Neto
+
+
 <div align="center">
 
-<iframe src="https://netojj.github.io/netojj/index.html" width="650" height="250" frameborder="0" style="border: none; background: transparent; border-radius: 8px;"></iframe>
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/1joseneto/)
-[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/santoosneto/)
+
+
+**Student of Systems Analysis and Development at Unifacisa**  
+
+
+Data enthusiast | Python automation | Future dev in the making
+
+
+```ascii
+
+
+     ██╗ ██████╗ ███████╗███████╗    ███╗   ██╗███████╗████████╗ ██████╗ 
+
+
+     ██║██╔═══██╗██╔════╝██╔════╝    ████╗  ██║██╔════╝╚══██╔══╝██╔═══██╗
+
+
+     ██║██║   ██║███████╗█████╗      ██╔██╗ ██║█████╗     ██║   ██║   ██║
+
+
+██   ██║██║   ██║╚════██║██╔══╝      ██║╚██╗██║██╔══╝     ██║   ██║   ██║
+
+
+╚█████╔╝╚██████╔╝███████║███████╗    ██║ ╚████║███████╗   ██║   ╚██████╔╝
+
+
+ ╚════╝  ╚═════╝ ╚══════╝╚══════╝    ╚═╝  ╚═══╝╚══════╝   ╚═╝    ╚═════╝ 
+
+```
+---
+
+**`Estudante de ADS | Automation Developer | Campina Grande, PB`**
+
+
+### 🛠️ Skills
+
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/1joseneto/)
+
+
+[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=flat&logo=instagram&logoColor=white)](https://www.instagram.com/santoosneto/)
+
+
+
+
+- **Languages:** Python, Java, JavaScript (yes, I know you read "JavaScrypt")
+
+
+- **Interests:** Task automation, data analysis, and of course, always learning more!
+
 
 </div>
 
