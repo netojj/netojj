@@ -1,62 +1,25 @@
 # José Neto
-
-
 <div align="center">
-
-
-
-
 **Student of Systems Analysis and Development at Unifacisa**  
-
-
 Data enthusiast | Python automation | Future dev in the making
-
-
 ```ascii
 
 
      ██╗ ██████╗ ███████╗███████╗    ███╗   ██╗███████╗████████╗ ██████╗ 
-
-
      ██║██╔═══██╗██╔════╝██╔════╝    ████╗  ██║██╔════╝╚══██╔══╝██╔═══██╗
-
-
      ██║██║   ██║███████╗█████╗      ██╔██╗ ██║█████╗     ██║   ██║   ██║
-
-
 ██   ██║██║   ██║╚════██║██╔══╝      ██║╚██╗██║██╔══╝     ██║   ██║   ██║
-
-
 ╚█████╔╝╚██████╔╝███████║███████╗    ██║ ╚████║███████╗   ██║   ╚██████╔╝
-
-
  ╚════╝  ╚═════╝ ╚══════╝╚══════╝    ╚═╝  ╚═══╝╚══════╝   ╚═╝    ╚═════╝ 
-
 ```
 ---
-
 **`Estudante de ADS | Automation Developer | Campina Grande, PB`**
-
-
 ### 🛠️ Skills
-
-
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/1joseneto/)
-
-
 [![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=flat&logo=instagram&logoColor=white)](https://www.instagram.com/santoosneto/)
-
-
-
-
 - **Languages:** Python, Java, JavaScript (yes, I know you read "JavaScrypt")
-
-
 - **Interests:** Task automation, data analysis, and of course, always learning more!
-
-
 </div>
-
 ---
 
 ## 🚀 **Olá! Eu sou José** 
