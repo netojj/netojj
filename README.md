@@ -2,8 +2,6 @@
 
 <div align="center">
 
-**Student of Systems Analysis and Development at Unifacisa**  
-Data enthusiast | Python automation | Future dev in the making
 
 ```ascii
      ██╗ ██████╗ ███████╗███████╗    ███╗   ██╗███████╗████████╗ ██████╗ 
