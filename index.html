@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>José Neto - ASCII Animation</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    
+    body {
+      background: transparent;
+      font-family: 'Courier New', Consolas, Monaco, 'Lucida Console', monospace;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      overflow: hidden;
+    }
+    
+    .container {
+      text-align: center;
+      padding: 20px;
+    }
+    
+    #ascii {
+      font-size: 14px;
+      line-height: 1.2;
+      white-space: pre;
+      position: relative;
+      background: linear-gradient(45deg, #58a6ff, #7c3aed, #f97316);
+      background-clip: text;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-size: 400% 400%;
+      animation: gradient 3s ease infinite;
+      text-shadow: 0 0 10px rgba(88, 166, 255, 0.3);
+    }
+    
+    @keyframes gradient {
+      0% { background-position: 0% 50%; }
+      50% { background-position: 100% 50%; }
+      100% { background-position: 0% 50%; }
+    }
+    
+    .cursor {
+      display: inline-block;
+      background: #58a6ff;
+      color: #0d1117;
+      animation: blink 0.8s steps(1) infinite;
+      margin-left: 2px;
+      width: 8px;
+      height: 16px;
+      box-shadow: 0 0 8px #58a6ff;
+    }
+    
+    @keyframes blink {
+      0%, 50% { opacity: 1; }
+      51%, 100% { opacity: 0; }
+    }
+    
+    .subtitle {
+      margin-top: 15px;
+      font-size: 16px;
+      font-weight: bold;
+      color: #f0f6fc;
+      opacity: 0;
+      animation: fadeIn 1s ease-in-out 7s forwards;
+      text-shadow: 0 0 5px rgba(240, 246, 252, 0.5);
+    }
+    
+    @keyframes fadeIn {
+      to { opacity: 1; }
+    }
+    
+    /* Responsividade */
+    @media (max-width: 768px) {
+      #ascii {
+        font-size: 10px;
+        line-height: 1.1;
+      }
+      
+      .container {
+        padding: 10px;
+      }
+      
+      .subtitle {
+        font-size: 14px;
+      }
+    }
+    
+    @media (max-width: 480px) {
+      #ascii {
+        font-size: 8px;
+        line-height: 1.0;
+      }
+      
+      .subtitle {
+        font-size: 12px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <pre id="ascii"></pre>
+    <div class="subtitle">Estudante de ADS | Automation Developer | Campina Grande, PB</div>
+  </div>
+
+  <script>
+    const ascii = `     ██╗ ██████╗ ███████╗███████╗    ███╗   ██╗███████╗████████╗ ██████╗ 
+     ██║██╔═══██╗██╔════╝██╔════╝    ████╗  ██║██╔════╝╚══██╔══╝██╔═══██╗
+     ██║██║   ██║███████╗█████╗      ██╔██╗ ██║█████╗     ██║   ██║   ██║
+██   ██║██║   ██║╚════██║██╔══╝      ██║╚██╗██║██╔══╝     ██║   ██║   ██║
+╚█████╔╝╚██████╔╝███████║███████╗    ██║ ╚████║███████╗   ██║   ╚██████╔╝
+ ╚════╝  ╚═════╝ ╚══════╝╚══════╝    ╚═╝  ╚═══╝╚══════╝   ╚═╝    ╚═════╝ `;
+
+    let idx = 0;
+    const pre = document.getElementById('ascii');
+    
+    function typeAscii() {
+      const currentText = ascii.slice(0, idx);
+      pre.innerHTML = currentText.replace(/\n/g, '<br>') + 
+        (idx < ascii.length ? '<span class="cursor">█</span>' : '');
+      
+      if (idx < ascii.length) {
+        idx++;
+        setTimeout(typeAscii, 45); // velocidade otimizada
+      } else {
+        // Remove cursor final após completar
+        setTimeout(() => {
+          pre.innerHTML = ascii.replace(/\n/g, '<br>');
+        }, 2000);
+      }
+    }
+    
+    // Adiciona efeito de brilho quando completa
+    function addCompleteEffect() {
+      setTimeout(() => {
+        const container = document.querySelector('.container');
+        container.style.filter = 'brightness(1.2)';
+        setTimeout(() => {
+          container.style.filter = 'brightness(1)';
+        }, 500);
+      }, 6000);
+    }
+    
+    // Inicia a animação
+    setTimeout(() => {
+      typeAscii();
+      addCompleteEffect();
+    }, 500);
+  </script>
+</body>
+</html>
