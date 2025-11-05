@@ -25,11 +25,10 @@ Desenvolvedor em formação apaixonado por **automação** e **solução de prob
 ```python
 def about_me():
     return {
-        "location": "Campina Grande, PB 🌎",
+        "location": "Campina Grande, PB",
         "education": "Análise e Desenvolvimento de Sistemas - Unifacisa",
         "passion": "Transformar processos manuais em automação inteligente",
-        "current_goal": "Evoluir constantemente como desenvolvedor",
-        "fun_fact": "Já tentei automatizar até meu próprio trabalho... com sucesso! 🤖"
+        "current_goal": "Evoluir constantemente como dev",
     }
 ```
 
