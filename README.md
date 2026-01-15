@@ -167,19 +167,6 @@ Modular Components:
 
 ---
 
-## 📊 **GitHub Analytics**
-
-<div align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=netojj&show_icons=true&theme=dracula&hide_border=true&include_all_commits=true&count_private=true"/>
-  <img height="180em" src="https://github-readme-streak-stats.herokuapp.com/?user=netojj&theme=dracula&hide_border=true"/>
-</div>
-
-<div align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=netojj&layout=compact&theme=dracula&hide_border=true&langs_count=8"/>
-</div>
-
----
-
 ## 🔥 **Desenvolvimento Contínuo**
 
 ```bash
